@@ -33,14 +33,14 @@ export default function Hero() {
 
   return (
     <section className="min-h-[80vh] flex flex-col justify-center">
-      <h1 className="text-4xl md:text-5xl font-semibold h-[70px] md:h-[90px]">
+      <h1 className="mt-4 text-4xl md:text-5xl font-semibold h-[70px] md:h-[90px]">
         {displayText}
         {displayText === texts[0] && <span> 👋</span>}
         {displayText === texts[1] && <span> ⚙️</span>}
         <span className="animate-pulse">|</span>
       </h1>
 
-      <p className=" text-slate-400 max-w-xl">
+      <p className="mt-4 text-slate-400 max-w-xl">
         Building scalable, real-world web applications with clean APIs and
         efficient backend systems.
       </p>
