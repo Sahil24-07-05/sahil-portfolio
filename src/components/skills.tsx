@@ -1,8 +1,8 @@
 const skills = {
   Frontend: ["React", "Next.js", "Tailwind CSS"],
   Backend: ["Node.js", "Express.js"],
-  Database: ["MongoDB"],
-  Tools: ["Git", "GitHub", "Postman"],
+  Database: ["MongoDB", "MySql"],
+  Tools: ["Git", "GitHub", "Postman", "Figma"],
   Other: ["Basic AI concepts"],
 };
 

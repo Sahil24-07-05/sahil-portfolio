@@ -1,9 +1,9 @@
 export default function Services() {
   const services = [
     "Backend Development",
-    "REST API Development",
-    "Full-Stack Web Development",
-    "MongoDB Database Design",
+    "REST APIs",
+    "Full-Stack Applications",
+    "Database & Data Handling",
   ];
 
   return (

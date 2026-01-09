@@ -4,9 +4,10 @@ export default function About() {
       <h2 className="text-2xl font-semibold mb-4">About</h2>
       <p className="text-slate-400 max-w-3xl">
         I’m Sahil, a backend-focused MERN Stack Developer from Indore, India. I
-        enjoy building APIs, handling databases, and developing real-world
-        projects that solve practical problems. Currently focused on improving
-        backend architecture, authentication systems, and scalable data models.
+        enjoy building APIs, working with databases, and developing real-world
+        projects that solve practical problems. Currently, I’m focused on
+        improving backend architecture, authentication systems, and designing
+        scalable data models.
       </p>
     </section>
   );

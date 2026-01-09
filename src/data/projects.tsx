@@ -3,14 +3,14 @@ export const projects = [
     title: "Fitness Partner",
     description:
       "A real-world fitness tracking platform with authentication and backend APIs.",
-    tech: ["Next.js", "Node.js", "Express", "MongoDB"],
+    tech: ["Next.js", "Node.js", "Express", "MySql"],
     github: "#",
     live: "#",
   },
   {
-    title: "MERN Backend Projects",
+    title: "Campus Connect",
     description:
-      "Authentication systems, REST APIs, CRUD operations, and database modeling.",
+      "Campus Connect is a web platform designed to connect students with campus-related updates.",
     tech: ["Node.js", "Express", "MongoDB"],
     github: "#",
     live: "",
