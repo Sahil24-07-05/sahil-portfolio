@@ -1,9 +1,11 @@
 const skills = {
   Frontend: ["React", "Next.js", "Tailwind CSS"],
-  Backend: ["Node.js", "Express.js"],
+  Backend: ["Node.js", "Express.js , REST APIs, MVC Architecture"],
   Database: ["MongoDB", "MySql"],
-  Tools: ["Git", "GitHub", "Postman", "Figma"],
-  Other: ["Basic AI concepts"],
+  Tools: ["Git", "GitHub", "Hoppscotch", "Figma"],
+  Other: [
+    " Strong interest in Data Structures & Algorithms with a growing focus on Machine Learning and problem solving.",
+  ],
 };
 
 export default function Skills() {

@@ -1,9 +1,8 @@
 export const projects = [
   {
-    title: "Fitness Partner",
-    description:
-      "A real-world fitness tracking platform with authentication and backend APIs.",
-    tech: ["Next.js", "Node.js", "Express", "MySql"],
+    title: "Stayora",
+    description: "MERN Stack Travel Property Listing Platform",
+    tech: ["React.js", "Node.js", "Express", "MongoDB"],
     github: "#",
     live: "#",
   },
@@ -11,7 +10,7 @@ export const projects = [
     title: "Campus Connect",
     description:
       "Campus Connect is a web platform designed to connect students with campus-related updates.",
-    tech: ["Node.js", "Express", "MongoDB"],
+    tech: ["React.js", "Node.js", "Express", "MongoDB"],
     github: "#",
     live: "",
   },
