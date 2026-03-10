@@ -49,7 +49,7 @@ export default function Contact() {
         <div className="flex items-center gap-3 ">
           <FileDown size={18} />
           <a
-            href="/sahil-resume.pdf"
+            href="/Sahil_Sabarwal.pdf"
             download
             className="hover:text-white transition font-medium"
           >
