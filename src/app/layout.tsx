@@ -1,9 +1,16 @@
+import type { Metadata } from "next";
+import { Geist } from "next/font/google";
 import "./globals.css";
 
-export const metadata = {
-  title: "Sahil Sabarwal | MERN Stack Developer",
+const geistSans = Geist({
+  subsets: ["latin"],
+  variable: "--font-geist-sans",
+});
+
+export const metadata: Metadata = {
+  title: "Sahil Sabarwal — Full Stack Developer",
   description:
-    "Backend-focused MERN Stack Developer building real-world scalable applications.",
+    "Full Stack Developer focused on building reliable web experiences with React, Next.js, Node.js, and MongoDB.",
 };
 
 export default function RootLayout({
@@ -12,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-slate-950 text-slate-200 antialiased">
+    <html lang="en" className={geistSans.variable}>
+      <body className="font-sans bg-bg text-ink-primary antialiased">
         {children}
       </body>
     </html>

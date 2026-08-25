@@ -1,30 +1,19 @@
-import Navbar from "@/components/navbar";
-import Hero from "@/components/hero";
-import About from "@/components/about";
-import Skills from "@/components/skills";
-import Projects from "@/components/projects";
-import Services from "@/components/services";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import HeroSection from "@/components/hero";
+import Navbar from "@/components/navbar";
+import Projects from "@/components/projects";
+import Skills from "@/components/skills";
 
 export default function Home() {
   return (
-    <>
-      {/* Top Navigation */}
+    <main>
       <Navbar />
-
-      {/* Main Content */}
-      <main className="max-w-6xl mx-auto px-6">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Services />
-        <Contact />
-      </main>
-
-      {/* Footer */}
+      <HeroSection />
+      <Skills />
+      <Projects />
+      <Contact />
       <Footer />
-    </>
+    </main>
   );
 }
