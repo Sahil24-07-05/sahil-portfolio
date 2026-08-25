@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import HeroBackground from "./HeroBackground";
 import TechVisualization from "./TechVisualization";
+import type { Variants } from "framer-motion";
 
 const container = {
   hidden: {},
@@ -15,7 +16,7 @@ const container = {
   },
 };
 
-const item = {
+const item : Variants = {
   hidden: { opacity: 0, y: 18 },
   show: {
     opacity: 1,

@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import type { Variants } from "framer-motion";
 import { Github, ExternalLink, Folder } from "lucide-react";
 import SectionHeading from "./SectionHeading";
-import { Tagesschrift } from "next/font/google";
 
 const PROJECTS = [
   {
@@ -36,14 +36,28 @@ const PROJECTS = [
   },
 ];
 
-const container = {
+const container: Variants = {
   hidden: {},
-  show: { transition: { staggerChildren: 0.1 } },
+  show: {
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
 };
 
-const card = {
-  hidden: { opacity: 0, y: 24 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+const card: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 24,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      ease: "easeOut",
+    },
+  },
 };
 
 export default function Projects() {
